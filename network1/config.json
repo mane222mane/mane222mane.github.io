@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Mane Torosyan"
+  },
+  "text": {
+    "more": "This network visualization maps the connections between artists and artistic styles, highlighting gender diversity. Nodes represent artists, color-coded by gender (blue for male, red for female, and yellow for unknown). Edges represent the association between artists and their artistic styles. The visualization reveals significant gender disparities, with male artists dominating the network. Female artists are less connected and underrepresented, particularly in traditionally male-dominated movements like Abstract Expressionism and Surrealism. ",
+    "intro": "A network visualization of the connections between artists and artistic style, with nodes representing artists (colored by gender and artistic style) and museums. \n\n",
+    "title": "Museum Collections and Artist Representation"
+  },
+  "legend": {
+    "edgeLabel": "Connections between Artists and Artistic Styles",
+    "colorLabel": "Gender and Artistic Style",
+    "nodeLabel": "Artist Name"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Label",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
