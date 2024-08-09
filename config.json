@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Mane Torosyan"
+  },
+  "text": {
+    "more": " Visualization 3 presents the network of artists and their connections to different artistic styles. Nodes represent individual artists, colored by gender (blue \u003d male, yellow \u003d unknown, red \u003d female), and edges signify their connections to artistic styles. The visualization reveals a significant concentration of male artists in traditional styles like Modernism and Abstract Expressionism, with female artists being less represented and more dispersed. Clusters of artistic styles demonstrate the interconnectedness and influence of artists within these styles. The underrepresentation of female artists highlights systemic biases, while their presence in contemporary styles suggests emerging trends towards greater gender diversity. This visualization provides valuable insights into the impact of gender diversity on the representation of artistic styles and movements, emphasizing the need for more inclusive practices in the art world.\n\n",
+    "intro": "This visualization illustrates the network of artists connected to various artistic styles, with nodes colored by gender (blue \u003d male, yellow \u003d unknown, red \u003d female). The visualization highlights the gender distribution and interconnectedness within artistic styles, revealing a predominance of male artists and emerging contributions from female artists in contemporary styles.",
+    "title": "Museum Collections and Artist Representation"
+  },
+  "legend": {
+    "edgeLabel": "Connections between Artists and Artistic Styles",
+    "colorLabel": "Gender and Museums",
+    "nodeLabel": "Artist Name"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Label",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
